@@ -1,4 +1,4 @@
-from pages.login_page import Login
+from features import Login
 
 
 def before_all(context):

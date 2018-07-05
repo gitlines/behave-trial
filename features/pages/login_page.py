@@ -1,5 +1,5 @@
-from pages.base import Base
-from pages.locators import *
+from .base import Base
+from .locators import *
 
 
 class Login(Base):
