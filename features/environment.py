@@ -1,9 +1,9 @@
-from features.browser import Browser
+from pages.login_page import Login
 
 
 def before_all(context):
-    context.browser = Browser()
+    context.login = Login()
 
 
 def after_all(context):
-    context.browser.close()
+    context.login.close()
